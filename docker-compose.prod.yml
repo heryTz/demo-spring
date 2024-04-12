@@ -1,0 +1,11 @@
+version: "3.8"
+
+name: demo-spring-boot-prod
+
+services:
+  todo:
+    build:
+      target: prod
+      context: ./todo
+    ports:
+      - 8081:8080

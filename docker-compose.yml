@@ -10,7 +10,8 @@ services:
     ports:
       - 8080:8080
     volumes:
-      - ./todo:/app/
+      - ./todo/src:/app/src
+      - ./todo/pom.xml:/app/pom.xml
 
   keycloak:
     image: quay.io/keycloak/keycloak:24.0.2

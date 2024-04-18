@@ -13,6 +13,11 @@ I will discover Spring in this project.
 - Keycloak db port: ```5432```
 - Adminer: <http://localhost:7000>
 
+## Microservice
+
+- What tools do we need to set up the architecture?
+- What are the best practices?
+
 ## Ressources
 
 - Spring docs: <https://spring.io/>

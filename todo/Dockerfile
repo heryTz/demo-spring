@@ -2,9 +2,6 @@ FROM openjdk:17-alpine as base
  
 FROM base as dev
 WORKDIR /app
-COPY .mvn/ .mvn
-COPY mvnw pom.xml ./
-RUN ./mvnw dependency:go-offline
 EXPOSE 8080
 CMD ["./mvnw", "spring-boot:run"]
 

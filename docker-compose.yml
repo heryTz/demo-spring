@@ -12,7 +12,7 @@ services:
     volumes:
       - ./todo:/app
       - /todo/target
-      - ./.m2:/root/.m2
+      - ./.cache/todo/maven:/root/.m2
 
   keycloak:
     image: quay.io/keycloak/keycloak:24.0.2
